@@ -1,0 +1,8 @@
+backup_dir: "C:/Backups" # The directory where the backups will be stored. You should use forward slashes (/)
+exclude_folders: # The folders to exclude from the backup
+  - "Diagnostics"
+  - "Crash Reports"
+  - "Updates"
+  - "Logs"
+archive_format: "zip"  # Options: zip, 7z, rar, tar.gz
+compression_level: 5   # Compression level: 0 (no compression) to 9 (maximum compression)
